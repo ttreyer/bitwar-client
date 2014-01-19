@@ -1,0 +1,27 @@
+@font-face {
+	font-family: 'Display';
+	src: url('fonts/display.eot');
+	src: url('fonts/display.eot?#iefix') format('embedded-opentype'),
+		url('fonts/display.woff') format('woff'),
+		url('fonts/display.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* { margin: 0; padding: 0; }
+
+body {
+	background-color: black;
+	color: WhiteSmoke;
+	font-family: 'Tahoma', sans-serif;
+}
+
+canvas {
+	border: outset 3px WhiteSmoke;
+}
+
+h1 {
+	font-family: 'Display', 'Tahoma', sans-serif;
+	font-size: 7em;
+	line-height: 1.2em;
+}
